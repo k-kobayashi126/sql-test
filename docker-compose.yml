@@ -1,9 +1,7 @@
-# おまじない
-# version: "3"
 # コンテナの一覧を書く合図
 services:
   # コンテナの名前
-  python-test:
+  sql-test:
     # このフォルダにあるDokerfileを使う
     build: .
     # ホストの"."とコンテナ内の"app"を同期（これがないとコンテナを消したらファイルが消える）

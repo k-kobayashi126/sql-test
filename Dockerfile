@@ -20,5 +20,5 @@ EXPOSE 8888
 # "--ip=0.0.0.0"：どのネットワークからでも受け付ける
 # "--port=8888"：jupyter labはこのポートで待っているよ
 # "--no-browser"：勝手にGUIのブラウザを開かないでね
-# "--allow-root"]：rootユーザーにjupyter実行の許可
+# "--allow-root"：rootユーザーにjupyter実行の許可
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]

@@ -1,3 +1,5 @@
-requests
-numpy
-jupyterlab
+requests==2.32.5
+numpy==2.4.2
+pandas==3.0.0
+matplotlib==3.10.8
+jupyterlab==4.5.3
